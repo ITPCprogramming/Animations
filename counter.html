@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<div id="clients"></div>
+<script>
+	var clients = -1;// начальное количество клиентов
+	var time;
+	var IntervalId = setInterval(function () {
+		document.getElementById('clients').innerHTML = time;
+		time = clients++ + clients++;
+		time++;
+		if(time == 3004){
+			clearInterval(IntervalId);
+		}
+	}, 0.1);
+</script>
+</body>
+</htmlsku
