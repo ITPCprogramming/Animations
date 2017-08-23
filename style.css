@@ -1,0 +1,11 @@
+#Line{
+
+    background-color: blue;
+    height: 20px;
+    width: 5px;
+}
+.container{
+    background-color: grey;
+    height: 20px;
+    width: 500px;
+}
