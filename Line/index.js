@@ -2,8 +2,8 @@
 function Line() {
             $("#Line").animate({
                 width: "500px",
-                opacity: "0.5"
-            }, "slow");
+                opacity: "4000"
+            }, 1280);
     var output = $('#Num'),
         timer = null,
         start = 0,
@@ -16,5 +16,5 @@ function Line() {
                 if (start >= end) {
                     clearInterval(timer);
                 }
-            }, 0.5);
+            }, 16);
 }
