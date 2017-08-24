@@ -1,14 +1,11 @@
 #Line{
 
-    background-color: blue;
+    background-color: red;
     height: 20px;
     width: 5px;
-    border-radius: 10px;
 }
 .container{
     background-color: grey;
     height: 20px;
     width: 500px;
-    border-radius: 10px;
-
 }
